@@ -53,6 +53,7 @@ dependencies = [
 [[package]]
 name = "concrete-csprng"
 version = "0.4.0"
+source = "git+https://github.com/Janmajayamall/tfhe-rs.git#a706afb26ec6a0876d267a4fd793100b75dff4e3"
 dependencies = [
  "aes",
  "libc",
@@ -374,6 +375,7 @@ dependencies = [
 [[package]]
 name = "tfhe"
 version = "0.4.0"
+source = "git+https://github.com/Janmajayamall/tfhe-rs.git#a706afb26ec6a0876d267a4fd793100b75dff4e3"
 dependencies = [
  "aligned-vec",
  "bytemuck",
