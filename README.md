@@ -1,6 +1,6 @@
-# FHE acutions
+# FHE auctions
 
-Implements Bit slice approach for private auctions as describe in [2002/189](https://eprint.iacr.org/2002/189).
+Implements bit slice approach for private auctions as described in [2002/189](https://eprint.iacr.org/2002/189).
 
 Uses [tfhe-rs](https://github.com/zama-ai/tfhe-rs) to implement boolean gates using p-encoding technique as described in [2023/1589](https://eprint.iacr.org/2023/1589.pdf).
 
@@ -14,11 +14,11 @@ Since a bid of $k$ bits is represented as $k$ LWE ciphertexts, each bidder needs
 
 # Test
 
-First, on x86_64 based machines set `tfhe-rs` dependecy in cargo.toml as
+On x86_64 based machines set `tfhe-rs` dependecy in cargo.toml as
 
 `tfhe = {git = "https://github.com/Janmajayamall/tfhe-rs.git", features = ["boolean", "shortint", "integer", "p-encoding","x86_64-unix"]}`
 
-On apple-silicon or aarch-64 based machines set it as
+On apple-silicon or aarch-64 based machines set `tfhe-rs` dependecy in cargo.toml as
 
 `tfhe = {git = "https://github.com/Janmajayamall/tfhe-rs.git", features = ["boolean", "shortint", "integer", "p-encoding","aarch64-unix"]}`
 
