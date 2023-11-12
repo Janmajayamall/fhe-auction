@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 tfhe = {git = "https://github.com/Janmajayamall/tfhe-rs.git", features = ["boolean", "shortint", "integer", "p-encoding","aarch64-unix"]}
 rand = "0.8.5"
+rayon = "1.8.0"
